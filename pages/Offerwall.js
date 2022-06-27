@@ -19,8 +19,8 @@ const Offerwall = ({navigation}) => {
   return (
     <AyetOfferwall
       userId="user12344422"
-      adslotName="universalWeb001"
-      appKey="05d3cdd8553d4b6b907689da2cb786be"
+      adslotName="rn_example_001"
+      appKey="c5bb63142da01df8ccc11002e16cff42"
       onClose={onClose}
     />
   );

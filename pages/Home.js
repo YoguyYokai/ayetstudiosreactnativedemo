@@ -30,7 +30,7 @@ const Home = ({navigation}) => {
       </View>
       <View style={{marginTop: 5}}>
         <Button
-          title="Open Another Offerwall (adslotId) "
+          title="Open Another Offerwall (adslotId)"
           style={{marginTop: 5}}
           onPress={() => navigation.navigate('AnotherOfferwall')}
         />

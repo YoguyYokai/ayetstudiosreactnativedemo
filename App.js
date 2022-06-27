@@ -18,25 +18,27 @@ const Stack = createStackNavigator();
 
 const App = ({}) => {
   return (
-    <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen
-          name="Home"
-          options={{headerShown: false}}
-          component={Home}
-        />
-        <Stack.Screen
-          name="Offerwall"
-          options={{headerShown: false}}
-          component={Offerwall}
-        />
-        <Stack.Screen
-          name="AnotherOfferwall"
-          options={{headerShown: false}}
-          component={AnotherOfferwall}
-        />
-      </Stack.Navigator>
-    </NavigationContainer>
+    <SafeAreaView style={{flex: 1}}>
+      <NavigationContainer>
+        <Stack.Navigator>
+          <Stack.Screen
+            name="Home"
+            options={{headerShown: false}}
+            component={Home}
+          />
+          <Stack.Screen
+            name="Offerwall"
+            options={{headerShown: false}}
+            component={Offerwall}
+          />
+          <Stack.Screen
+            name="AnotherOfferwall"
+            options={{headerShown: false}}
+            component={AnotherOfferwall}
+          />
+        </Stack.Navigator>
+      </NavigationContainer>
+    </SafeAreaView>
   );
 };
 

@@ -16,9 +16,7 @@ const AnotherOfferwall = ({navigation}) => {
     navigation.navigate('Home');
   };
 
-  return (
-    <AyetOfferwall userId="user12344422" adslotId="3647" onClose={onClose} />
-  );
+  return <AyetOfferwall userId="12345" adslotId="420" onClose={onClose} />;
 };
 
 export default AnotherOfferwall;
