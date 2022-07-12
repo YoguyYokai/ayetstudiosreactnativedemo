@@ -2088,10 +2088,10 @@
   "resolved" "https://registry.npmjs.org/atob/-/atob-2.1.2.tgz"
   "version" "2.1.2"
 
-"ayetsdk@^1.0.4":
-  "integrity" "sha512-30GOf2BXwGVy3a4+//qKfviolD1P/ptr5LvLnnukLtGfg3yXkeQCFklWDJPif1HG1RKqDcXTP5+GWpLxDHofGw=="
-  "resolved" "https://registry.npmjs.org/ayetsdk/-/ayetsdk-1.0.4.tgz"
-  "version" "1.0.4"
+"ayetsdk@^1.0.7":
+  "integrity" "sha512-C1WOmaMmMj2ikt7c5S0u5/9Vphf2lprN8JTG5WO4S1UQzkO8RO9roy5r/QwWf0aQuVQNbB0byv05i4RRcVZeEQ=="
+  "resolved" "https://registry.npmjs.org/ayetsdk/-/ayetsdk-1.0.7.tgz"
+  "version" "1.0.7"
 
 "babel-core@^7.0.0-bridge.0":
   "integrity" "sha512-poPX9mZH/5CSanm50Q+1toVci6pv5KSRv/5TWCwtzQS5XEwn40BcCrgIeMFWP9CKKIniKXNxoIOnOq4VVlGXhg=="

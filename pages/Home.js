@@ -23,16 +23,9 @@ const Home = ({navigation}) => {
       }}>
       <View style={{marginTop: 5}}>
         <Button
-          title="Open Offerwall (adslotName)"
+          title="Open Offerwall"
           style={{marginTop: 5}}
           onPress={() => navigation.navigate('Offerwall')}
-        />
-      </View>
-      <View style={{marginTop: 5}}>
-        <Button
-          title="Open Another Offerwall (adslotId)"
-          style={{marginTop: 5}}
-          onPress={() => navigation.navigate('AnotherOfferwall')}
         />
       </View>
     </SafeAreaView>

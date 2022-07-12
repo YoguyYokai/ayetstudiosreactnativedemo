@@ -11,7 +11,6 @@ import {
 import {createStackNavigator} from '@react-navigation/stack';
 import {NavigationContainer} from '@react-navigation/native';
 import Offerwall from './pages/Offerwall';
-import AnotherOfferwall from './pages/AnotherOfferwall';
 import Home from './pages/Home';
 
 const Stack = createStackNavigator();
@@ -30,11 +29,6 @@ const App = ({}) => {
             name="Offerwall"
             options={{headerShown: false}}
             component={Offerwall}
-          />
-          <Stack.Screen
-            name="AnotherOfferwall"
-            options={{headerShown: false}}
-            component={AnotherOfferwall}
           />
         </Stack.Navigator>
       </NavigationContainer>
