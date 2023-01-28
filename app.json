@@ -1,4 +1,9 @@
 {
-  "name": "ayetstudiosreactnativedemo",
-  "displayName": "ayetstudiosreactnativedemo"
+  "expo": {
+    "slug": "ayetstudiosreactnativedemo",
+    "name": "ayetstudiosreactnativedemo",
+    "sdkVersion": "45.0.0",
+    "entryPoint": ".vscode/exponentIndex.js"
+  },
+  "name": "ayetstudiosreactnativedemo"
 }
